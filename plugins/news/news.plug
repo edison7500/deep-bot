@@ -1,0 +1,9 @@
+[Core]
+Name = News
+Module = news
+
+[Documentation]
+Description = This is a chainnews.com news list .
+
+[Python]
+Version = 3

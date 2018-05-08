@@ -3,7 +3,7 @@ Name = Geoip
 Module = geoip
 
 [Documentation]
-Description = This is a simple plugin example to get you started.
+Description = This is a geo ip plugin.
 
 [Python]
 Version = 3
