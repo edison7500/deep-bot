@@ -21,9 +21,9 @@ BOT_ASYNC_POOLSIZE = 10
 BOT_EXTRA_STORAGE_PLUGINS_DIR = r'/Users/xiejiaxin/PycharmProjects/jiaxin.im/err-storage-redis'
 STORAGE = 'Redis'
 STORAGE_CONFIG = {
-    'host': '10.0.0.99',
+    'host': '10.0.1.71',
     'port': 6379,
-    'db': 0,
+    'db': 15,
     # 'password': 'xyz123',
 }
 

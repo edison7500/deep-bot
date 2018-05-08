@@ -39,7 +39,9 @@ class News(BotPlugin):
             abort(400)
         data = request.json
         response = tenv().get_template('news.j2').render(data=data)
-        return self.send(self.build_identifier('@jiaxin'), response)
+        for user in self.bot_config.BOT_ADMINS:
+            return self.send(self.build_identifier(user),
+                             response)
 
     @staticmethod
     def validate_incoming(request):
